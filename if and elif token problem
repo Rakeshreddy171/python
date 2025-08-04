@@ -1,0 +1,16 @@
+n = int(input("Enter the amount: "))
+if n == 10:
+     print("Collect Chips")
+elif n == 20:
+     m = input("Select among [s,t,f]: ")
+     if m == "t":
+         print("Collect Thumbsup")
+     elif m == "s":                                  
+         print("Collect Sprite")
+     elif m == "f":
+         print("Collect Fanta")
+     else:
+         print("Product is not existed")
+else:
+     print("Order cannot be accepted!!")
+print("Thankyou for visiting")
