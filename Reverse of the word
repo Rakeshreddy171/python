@@ -1,0 +1,6 @@
+a = input("Enter the word : ")
+
+r_str = " "
+for i in a:
+    r_str = i+r_str
+print(r_str)
